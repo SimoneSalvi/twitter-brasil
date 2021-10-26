@@ -1,18 +1,32 @@
-.principal{
-    display: flex;
-}
-
 .div1{
-    background-color: bisque;
-
-}
-
-.div2{
-    background-color: rgb(109, 199, 147);
-
-}
-
-.div3{
-    background-color: rgb(50, 46, 112);
-
-}
+    height: 100%;
+     
+    }
+    
+    .list-menu{
+        list-style-type: none;
+    }
+    
+    .list-menu li {
+        display: flex;
+    }
+    
+    
+    .list-menu span {
+       margin-right: 10px;
+    }
+    
+    button{
+        border: none;
+    }
+    
+    
+    .btn-new-twitter{
+        width: 200px;
+    }
+    
+    .icon-twitter{
+       
+        padding: 20px 0px 20px 0px;
+    }
+    
