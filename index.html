@@ -3,13 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Twitter Brasil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+     <link rel="stylesheet"
+     href="https://fonts.googleapis.com/css?family=Tangerine">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+     <link href="./style.css" rel="stylesheet">
+     <script src="script.js"></script>
+
+
+    <title>Twitter Brazuca</title>
 </head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
 
-<body>
-    
-    
+    <!--coluna 1-->
+    <div class="divprincipal row  ">
+        <div class=" div1 col col-sm-3">
+            <ul class="list-menu align-items-center">
+                <li>
+                    <span class="material-icons icon-twitter">
+                        flutter_dash
+                    </span>
+                </li>
+                <li>
+                    <span class="material-icons"> home </span>
+                    <p>Página inicial </p> 
+                </li>
+                <li>
+                    <span class="material-icons"> tag</span>
+                    <p>Explorar</p> 
+                </li>
+                <li>
+                    <span class="material-icons"> notifications_none</span>
+                    <p>Notificações </p> 
+                </li>
+                <li>
+                    <span class="material-icons"> mail_outline</span>
+                    <p>Mensagens </p> 
+                </li>
+                <li>
+                    <span class="material-icons"> turned_in_not</span>
+                    <p>Favoritos </p> 
+                </li>
+                <li>
+                    <span class="material-icons"> reorder</span>
+                    <p>Lista </p> 
+                </li> 
+                <li>
+                    <span class="material-icons"> perm_identity</span>
+                    <p>Perfil </p> 
+                </li>
+                <li>
+                    <span class="material-icons"> more_horiz</span>
+                    <p>Mais </p> 
+                </li>
+              </ul>
+              <button class="text-white btn bg-primary btn-new-twitter ">
+                  Tweet
+              </button>
+        </div>
 
+        <!--coluna 2-->
+        <div class=" div2  col-sm-6  col-xs-4" id="navbar-example" role="tablist">
+            <div class="casa">
+                <p>Casa
+                    <span class="material-icons" style="margin-left: 80%; margin-top: 5px;"> auto_awesome</span>
+
+                </p>
+                
+            </div>
+
+            <div class="casa">
+  
+                <div class="mb-3">
+                    <label for="pesquisa" class="form-label"></label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="O que está acontecendo?">
+                  </div>
+                  <hr>
+                  <span class="material-icons">
+                    image
+                  </span>
+                  <span class="material-icons">
+                    gif_box
+                  </span>
+                  <span class="material-icons">
+                    poll
+                  </span>
+                  <span class="material-icons">
+                    sentiment_satisfied_alt
+                  </span>  
+                  <span class="material-icons">
+                    schedule
+                  </span>
+                  <button class="text-white btn bg-primary btn-new-twitter ">
+                    Tweet
+                </button>
+
+            </div>
+
+            <div class="casa ">
+                <p>Jornal O Globo <br>EUA voltam a aceitar brasileiros, e procura por voos sobe até 300% </p>
+                <div class="card" style="width: 18rem; ">
+                    <img src="img/noticia1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">https://oglobo.globo.com <br> EUA voltam a aceitar brasileiros, e procura por voos sobe até 300%<br>Empresas aéreas planejam até dobrar frequência de voos até o fim do ano</p>
+                    </div>
+                  </div>
+
+
+            </div>
+
+
+            <div class="casa">
+                <p>Jornal O Globo <br>EUA voltam a aceitar brasileiros, e procura por voos sobe até 300% </p>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/noticia1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">https://oglobo.globo.com <br> EUA voltam a aceitar brasileiros, e procura por voos sobe até 300%<br>Empresas aéreas planejam até dobrar frequência de voos até o fim do ano</p>
+                    </div>
+                  </div>
+
+
+            </div>
+
+         </div>
+
+        <!--coluna 3-->
+        <div class=" div3  col col-sm-3">
+            <div class="mb-3">
+                <label for="pesquisa" class="form-label"></label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Pesquise no Twitter">
+              </div>
+              <button onclick='meuNome("Simone")'
+              > Meu nome</button>
+        </div>    
+
+    </div>
 </body>
+
+    
+<footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</footer>
 </html>

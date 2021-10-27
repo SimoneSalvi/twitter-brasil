@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+}
+
+.div1{
+    height: 100%;
+
+    position: fixed;
+    }
+  
+    .div2{
+
+        margin-left: 20%;
+        height: 100%;
+        scroll-behavior: auto;
+        position: relative;
+        }
+
+        .div3{
+
+
+            margin-left: 70%;
+            height: 100%;     
+            position: fixed;
+            }
+
+    .list-menu{
+        list-style-type: none;
+    }
+    
+    .list-menu li {
+        display: flex;
+    }
+    
+    
+    .list-menu span {
+       margin-right: 10px;
+    }
+    
+    button{
+        border: none;
+    }
+    
+    
+    .btn-new-twitter{
+        width: 200px;
+    }
+    
+    .icon-twitter{
+       
+        padding: 20px 0px 20px 0px;
+    }
+    
+    .casa{
+        border: 1px solid #d5d5d5;
+        padding:5px 20px 5px 20px; 
+        border-radius: 1px;
+        width:90%;
+        margin-right: 0px;
+        
+    }
+
+    .figPerfil img{
+        width: 10%;
+        height: 10%;
+        border-radius: 50px;
+    }
