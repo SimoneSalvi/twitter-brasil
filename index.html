@@ -137,7 +137,44 @@
               </div>
               <button onclick='meuNome("Simone")'
               > Meu nome</button>
-        </div>    
+             
+
+              <!--Aulas exemplos--------------------------->
+              <button onclick="window.location.href='https://sujeitoprogramador.com';">Ir ao sujeito Programador</button>
+          
+              <button onclick="window.location.href='window.location.href'">Atualizar a Página</button>
+              <!--------------------->
+              <div id="area">
+                    Bem vindo!
+              </div>
+              <button onclick="document.getElementById('area').innerHTML=
+              'Bem vindo! ' + prompt('Qual seu nome?');">Entrar</button>
+              <!--------------------->
+              <div id="area1">
+                    Qual o nome do botão?
+              </div>
+              <button onclick="this.innerHTML=
+              prompt('Qual o nome do botão?');">Qual meu nome?</button>
+           
+             <!--------------------->
+             <div id="area2">
+                Bem vindo!
+          </div>
+          <button onclick="entrar()">Entrar</button>
+
+
+           <!--parei no vídeo 8-->
+           <br><br>
+           <!--Objeto-->
+           <p id="pessoa"></p>
+           <button onclick="document.getElementById('pessoa').innerHTML =
+           person.firstName + ' tem ' + person.age + ' anos de idade.';">Dados da pessoa</button>
+           
+
+
+
+
+         </div>    
 
     </div>
 </body>

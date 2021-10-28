@@ -2,6 +2,10 @@
     margin: 0%;
 }
 
+body{
+    position: relative;
+}
+
 .div1{
     height: 100%;
 
